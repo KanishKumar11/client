@@ -107,12 +107,13 @@ const Project = ({ data, project, teams }) => {
             src="/twitterlogo2429.svg"
             width={500}
             height={500}
-          />
+          /><p className={styles.socialName}>Twitter</p>
             <img
               className={styles.logo1}
+              src="/discordiconsvgrepocom-1.svg"
               alt=""
               height={500}
-            />
+            /><p className={styles.socialName}>Discord</p>
           </div></Link>)}
           {data.social.discord && (<Link href={data.social.discord} target="_blank" rel="noopener noreferrer"> <p className={styles.socialName} >Discord</p></Link>)}
         </div>

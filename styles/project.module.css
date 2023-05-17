@@ -765,7 +765,15 @@ Table sub clients bg (Neutral 0)
         text-align: center;
     }
     .social{
-        display: none !important;
+        display: flex !important;
+        position: absolute;
+        top: 1050px;
+        flex-direction: column !important;
+        gap: 10px;
+    }
+    .social a div{
+        display: flex;
+        gap: 1.5rem;
     }
     .description{
         margin-top: 30px;
@@ -852,6 +860,7 @@ Table sub clients bg (Neutral 0)
     right: 0 !important;
    }
 }
+
 @media (min-width:440px) {
     .images{
         position: absolute !important;

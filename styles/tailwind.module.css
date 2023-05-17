@@ -3,7 +3,7 @@
 }
 .texplore{
     padding-top:1.7rem ;
-    padding-left: 1.25rem;
+    /* padding-left: 1.25rem; */
 
 }
 @media (min-width:640px){
@@ -26,7 +26,7 @@
 }
 @media (max-width:1024px) {
     .texplore{
-        padding: 2.5rem;
+        padding: .5rem;
     }
     .tcont{
         gap:10rem;
@@ -42,7 +42,7 @@
 .tflex{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 .theader{
     font-weight: 700;
